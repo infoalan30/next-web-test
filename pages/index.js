@@ -13,7 +13,7 @@ export default function Home() {
     setHistory((prevHistory) => [...prevHistory, text]);
     setText('');
 
-    fetch('https://3501h4s369.goho.co/learn/clipnetlify.php', {
+    fetch('https://localhost/learn/clipnetlify.php', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
